@@ -111,17 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Assignment1
+# Target rules for targets named Ass1
 
 # Build rule for target.
-Assignment1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Assignment1
-.PHONY : Assignment1
+Ass1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Ass1
+.PHONY : Ass1
 
 # fast build rule for target.
-Assignment1/fast:
-	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/build
-.PHONY : Assignment1/fast
+Ass1/fast:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/build
+.PHONY : Ass1/fast
+
+column_matrix.o: column_matrix.cpp.o
+
+.PHONY : column_matrix.o
+
+# target to build an object file
+column_matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/column_matrix.cpp.o
+.PHONY : column_matrix.cpp.o
+
+column_matrix.i: column_matrix.cpp.i
+
+.PHONY : column_matrix.i
+
+# target to preprocess a source file
+column_matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/column_matrix.cpp.i
+.PHONY : column_matrix.cpp.i
+
+column_matrix.s: column_matrix.cpp.s
+
+.PHONY : column_matrix.s
+
+# target to generate assembly for a file
+column_matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/column_matrix.cpp.s
+.PHONY : column_matrix.cpp.s
+
+connectivity_matrix.o: connectivity_matrix.cpp.o
+
+.PHONY : connectivity_matrix.o
+
+# target to build an object file
+connectivity_matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/connectivity_matrix.cpp.o
+.PHONY : connectivity_matrix.cpp.o
+
+connectivity_matrix.i: connectivity_matrix.cpp.i
+
+.PHONY : connectivity_matrix.i
+
+# target to preprocess a source file
+connectivity_matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/connectivity_matrix.cpp.i
+.PHONY : connectivity_matrix.cpp.i
+
+connectivity_matrix.s: connectivity_matrix.cpp.s
+
+.PHONY : connectivity_matrix.s
+
+# target to generate assembly for a file
+connectivity_matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/connectivity_matrix.cpp.s
+.PHONY : connectivity_matrix.cpp.s
 
 main.o: main.cpp.o
 
@@ -129,7 +183,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +192,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,8 +201,116 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Assignment1.dir/build.make CMakeFiles/Assignment1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+matrix.o: matrix.cpp.o
+
+.PHONY : matrix.o
+
+# target to build an object file
+matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/matrix.cpp.o
+.PHONY : matrix.cpp.o
+
+matrix.i: matrix.cpp.i
+
+.PHONY : matrix.i
+
+# target to preprocess a source file
+matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/matrix.cpp.i
+.PHONY : matrix.cpp.i
+
+matrix.s: matrix.cpp.s
+
+.PHONY : matrix.s
+
+# target to generate assembly for a file
+matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/matrix.cpp.s
+.PHONY : matrix.cpp.s
+
+stochastic_matrix.o: stochastic_matrix.cpp.o
+
+.PHONY : stochastic_matrix.o
+
+# target to build an object file
+stochastic_matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/stochastic_matrix.cpp.o
+.PHONY : stochastic_matrix.cpp.o
+
+stochastic_matrix.i: stochastic_matrix.cpp.i
+
+.PHONY : stochastic_matrix.i
+
+# target to preprocess a source file
+stochastic_matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/stochastic_matrix.cpp.i
+.PHONY : stochastic_matrix.cpp.i
+
+stochastic_matrix.s: stochastic_matrix.cpp.s
+
+.PHONY : stochastic_matrix.s
+
+# target to generate assembly for a file
+stochastic_matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/stochastic_matrix.cpp.s
+.PHONY : stochastic_matrix.cpp.s
+
+teleportion_matrix.o: teleportion_matrix.cpp.o
+
+.PHONY : teleportion_matrix.o
+
+# target to build an object file
+teleportion_matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/teleportion_matrix.cpp.o
+.PHONY : teleportion_matrix.cpp.o
+
+teleportion_matrix.i: teleportion_matrix.cpp.i
+
+.PHONY : teleportion_matrix.i
+
+# target to preprocess a source file
+teleportion_matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/teleportion_matrix.cpp.i
+.PHONY : teleportion_matrix.cpp.i
+
+teleportion_matrix.s: teleportion_matrix.cpp.s
+
+.PHONY : teleportion_matrix.s
+
+# target to generate assembly for a file
+teleportion_matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/teleportion_matrix.cpp.s
+.PHONY : teleportion_matrix.cpp.s
+
+transition_matrix.o: transition_matrix.cpp.o
+
+.PHONY : transition_matrix.o
+
+# target to build an object file
+transition_matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/transition_matrix.cpp.o
+.PHONY : transition_matrix.cpp.o
+
+transition_matrix.i: transition_matrix.cpp.i
+
+.PHONY : transition_matrix.i
+
+# target to preprocess a source file
+transition_matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/transition_matrix.cpp.i
+.PHONY : transition_matrix.cpp.i
+
+transition_matrix.s: transition_matrix.cpp.s
+
+.PHONY : transition_matrix.s
+
+# target to generate assembly for a file
+transition_matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Ass1.dir/build.make CMakeFiles/Ass1.dir/transition_matrix.cpp.s
+.PHONY : transition_matrix.cpp.s
 
 # Help Target
 help:
@@ -157,11 +319,29 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Assignment1"
+	@echo "... Ass1"
 	@echo "... edit_cache"
+	@echo "... column_matrix.o"
+	@echo "... column_matrix.i"
+	@echo "... column_matrix.s"
+	@echo "... connectivity_matrix.o"
+	@echo "... connectivity_matrix.i"
+	@echo "... connectivity_matrix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... matrix.o"
+	@echo "... matrix.i"
+	@echo "... matrix.s"
+	@echo "... stochastic_matrix.o"
+	@echo "... stochastic_matrix.i"
+	@echo "... stochastic_matrix.s"
+	@echo "... teleportion_matrix.o"
+	@echo "... teleportion_matrix.i"
+	@echo "... teleportion_matrix.s"
+	@echo "... transition_matrix.o"
+	@echo "... transition_matrix.i"
+	@echo "... transition_matrix.s"
 .PHONY : help
 
 

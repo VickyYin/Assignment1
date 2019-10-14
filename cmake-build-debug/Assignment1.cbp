@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Assignment1">
-				<Option output="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/cmake-build-debug/Assignment1.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Ass1">
+				<Option output="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/cmake-build-debug/Ass1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +42,14 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ass1"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Assignment1/fast">
-				<Option output="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/cmake-build-debug/Assignment1.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="Ass1/fast">
+				<Option output="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/cmake-build-debug/Ass1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,7 +63,7 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment1/fast"/>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ass1/fast"/>
 					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Yaqi\ Yin/CLionProjects/Assignment1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,8 +80,44 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/column_matrix.cpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/column_matrix.hpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/connectivity_matrix.cpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/connectivity_matrix.hpp">
+			<Option target="Ass1"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/main.cpp">
-			<Option target="Assignment1"/>
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/matrix.cpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/matrix.hpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/stochastic_matrix.cpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/stochastic_matrix.hpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/teleportion_matrix.cpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/teleportion_matrix.hpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/transition_matrix.cpp">
+			<Option target="Ass1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/transition_matrix.hpp">
+			<Option target="Ass1"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Yaqi Yin/CLionProjects/Assignment1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
